@@ -1,0 +1,329 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500;800&family=Baloo+Da+2&family=Kanit&family=Roboto:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+$bgc: #f5f5f7;
+
+%BalooBhai2 {
+  font-family: "Baloo Bhai 2", cursive;
+  font-weight: 900;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+.containar {
+  padding: 10px 32px;
+}
+.wrapper {
+  display: flex;
+  gap: 60px;
+}
+.btn {
+  background: #0c0b0b;
+  color: #fff;
+  border-radius: 8px;
+  padding: 12px 30px;
+}
+//left star
+.left {
+  width: 12%;
+  height: 95vh;
+  background-color: #000;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 10px 10px 18px black;
+  &__icons {
+    width: 30px;
+    height: 92px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+  &__icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 47px;
+    padding-top: 50px;
+    .icon {
+      width: 20px;
+      height: 20px;
+    }
+    .icon6 {
+      margin-top: 100px;
+    }
+  }
+}
+//midle sta8
+.midle {
+  margin-top: 19px;
+  &__top {
+    position: relative;
+    background-color: $bgc;
+    width: 600px;
+    height: 118px;
+    border-radius: 14px;
+    &__title {
+      @extend %BalooBhai2;
+      font-size: 35px;
+      line-height: 57px;
+      padding-left: 30px;
+      padding-top: 20px;
+    }
+    &__text {
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 24px;
+      color: #0c0b0b;
+      position: absolute;
+      z-index: 2;
+      padding-left: 30px;
+      padding-bottom: 40px;
+    }
+    &__img {
+      width: 150px;
+      height: 145px;
+      position: absolute;
+      top: -27px;
+      z-index: 2;
+      left: 351px;
+    }
+  }
+  &__work {
+    display: flex;
+    align-items: center;
+    margin-top: 14px;
+    gap: 10px;
+    &__left {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      gap: 20px;
+      background-color: $bgc;
+      padding: 7px 7px;
+      border-radius: 14px;
+
+      .left__img1 {
+        width: 65px;
+        height: 65px;
+      }
+      .left__content h4 {
+        @extend %BalooBhai2;
+        font-size: 16px;
+        line-height: 26px;
+      }
+      .left__img2 {
+        width: 39px;
+        height: 39px;
+        margin: 0 18px;
+      }
+      .left__btn {
+        margin-right: 10px;
+        transition: all 0.6s ease-in-out;
+        &:hover {
+          background-color: transparent;
+          color: rgb(0, 0, 0);
+          padding: 12px 30px;
+          border-radius: 8px;
+        }
+      }
+    }
+    &__right {
+      display: flex;
+      gap: 10px;
+      .right__icon {
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        transition: all 0.6s ease-in-out;
+        &:hover {
+          background-color: $bgc;
+        }
+      }
+    }
+  }
+  &__bottom {
+    margin-top: 8px;
+    h3 {
+      @extend %BalooBhai2;
+      font-size: 18px;
+      line-height: 38px;
+      color: #0c0b0b;
+    }
+    &__link {
+      @extend %BalooBhai2;
+      font-size: 16px;
+      line-height: 26px;
+      color: #0c0b0b;
+      opacity: 0.2;
+      padding-right: 10px;
+    }
+    .link {
+      @extend %BalooBhai2;
+      font-size: 15px;
+      line-height: 18px;
+      color: #030202;
+      opacity: 1;
+    }
+    &__carusel {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      background-color: $bgc;
+      border-radius: 14px;
+      padding: 8px 8px;
+      margin-top: 10px;
+      .carusel__img {
+        width: 60px;
+        height: 60px;
+      }
+      .carusel__content h4 {
+        @extend %BalooBhai2;
+        font-size: 15px;
+        line-height: 26px;
+      }
+      .carusel__content p {
+        font-size: 13px;
+        line-height: 24px;
+      }
+      .carusel__icon {
+        width: 52px;
+        height: 14px;
+        margin: 0px 17px;
+      }
+      .carusel__btn {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        padding: 12px 30px;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: all 0.6s ease-in-out;
+        &:hover {
+          background: #0c0b0b;
+          color: #fff;
+          border-radius: 8px;
+          padding: 12px 30px;
+        }
+      }
+    }
+  }
+}
+//right star
+.right {
+  margin-top: 19px;
+  &__top {
+    .top__seorch {
+      background-color: $bgc;
+      border: 1px solid transparent;
+      padding: 5px 245px 5px 5px;
+      border-radius: 8px;
+    }
+    .top__nav {
+      padding-left: 20px;
+      width: 50px;
+      height: 38px;
+    }
+    .top__imgs {
+      padding-left: 20px;
+      width: 61px;
+      height: 32px;
+    }
+  }
+  &__bottom {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    .content1 {
+      width: 40%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: $bgc;
+      padding: 20px 30px 12px 30px;
+      border-radius: 8px;
+      margin-top: 8px;
+      img {
+        width: 30px;
+        height: 30px;
+      }
+      span {
+        padding-left: 10px;
+      }
+    }
+    .content2 {
+      width: 40%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: $bgc;
+      padding: 20px 30px 12px 30px;
+      border-radius: 8px;
+      margin-top: 10px;
+      img {
+        width: 30px;
+        height: 30px;
+      }
+      span {
+        padding-left: 10px;
+      }
+    }
+  }
+  &__statik {
+    h3 {
+      @extend %BalooBhai2;
+      font-size: 18px;
+      line-height: 38px;
+      color: #0c0b0b;
+      margin-top: 20px;
+    }
+    .right__link {
+      @extend %BalooBhai2;
+      font-size: 16px;
+      line-height: 26px;
+      color: #0c0b0b;
+      opacity: 0.2;
+      padding-right: 10px;
+    }
+    .link {
+      @extend %BalooBhai2;
+      font-size: 15px;
+      line-height: 18px;
+      color: #030202;
+      opacity: 1;
+    }
+    .select {
+      margin-left: 120px;
+      background-color: $bgc;
+      border-radius: 5px;
+      padding: 3px 5px;
+      border: 1px solid $bgc;
+    }
+    .right__img {
+      width: 435px;
+      height: 212px;
+    }
+  }
+  &__more {
+    width: 87%;
+    display: flex;
+    gap: 40px;
+    background-color: $bgc;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    &__content {
+      line-height: 30px;
+      p {
+        width: 190px;
+        padding-bottom: 15px;
+      }
+    }
+  }
+}

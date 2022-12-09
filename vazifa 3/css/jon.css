@@ -1,0 +1,367 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500;800&family=Baloo+Da+2&family=Kanit&family=Roboto:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.midle__top__title, .midle__work__left .left__content h4, .midle__bottom h3, .midle__bottom__link, .midle__bottom .link, .midle__bottom__carusel .carusel__content h4, .right__statik h3, .right__statik .right__link, .right__statik .link {
+  font-family: "Baloo Bhai 2", cursive;
+  font-weight: 900;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.containar {
+  padding: 10px 32px;
+}
+
+.wrapper {
+  display: flex;
+  gap: 60px;
+}
+
+.btn {
+  background: #0c0b0b;
+  color: #fff;
+  border-radius: 8px;
+  padding: 12px 30px;
+}
+
+.left {
+  width: 12%;
+  height: 95vh;
+  background-color: #000;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 10px 10px 18px black;
+}
+
+.left__icons {
+  width: 30px;
+  height: 92px;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.left__icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 47px;
+  padding-top: 50px;
+}
+
+.left__icon .icon {
+  width: 20px;
+  height: 20px;
+}
+
+.left__icon .icon6 {
+  margin-top: 100px;
+}
+
+.midle {
+  margin-top: 19px;
+}
+
+.midle__top {
+  position: relative;
+  background-color: #f5f5f7;
+  width: 600px;
+  height: 118px;
+  border-radius: 14px;
+}
+
+.midle__top__title {
+  font-size: 35px;
+  line-height: 57px;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+.midle__top__text {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  color: #0c0b0b;
+  position: absolute;
+  z-index: 2;
+  padding-left: 30px;
+  padding-bottom: 40px;
+}
+
+.midle__top__img {
+  width: 150px;
+  height: 145px;
+  position: absolute;
+  top: -27px;
+  z-index: 2;
+  left: 351px;
+}
+
+.midle__work {
+  display: flex;
+  align-items: center;
+  margin-top: 14px;
+  gap: 10px;
+}
+
+.midle__work__left {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  background-color: #f5f5f7;
+  padding: 7px 7px;
+  border-radius: 14px;
+}
+
+.midle__work__left .left__img1 {
+  width: 65px;
+  height: 65px;
+}
+
+.midle__work__left .left__content h4 {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.midle__work__left .left__img2 {
+  width: 39px;
+  height: 39px;
+  margin: 0 18px;
+}
+
+.midle__work__left .left__btn {
+  margin-right: 10px;
+  transition: all 0.6s ease-in-out;
+}
+
+.midle__work__left .left__btn:hover {
+  background-color: transparent;
+  color: black;
+  padding: 12px 30px;
+  border-radius: 8px;
+}
+
+.midle__work__right {
+  display: flex;
+  gap: 10px;
+}
+
+.midle__work__right .right__icon {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  transition: all 0.6s ease-in-out;
+}
+
+.midle__work__right .right__icon:hover {
+  background-color: #f5f5f7;
+}
+
+.midle__bottom {
+  margin-top: 8px;
+}
+
+.midle__bottom h3 {
+  font-size: 18px;
+  line-height: 38px;
+  color: #0c0b0b;
+}
+
+.midle__bottom__link {
+  font-size: 16px;
+  line-height: 26px;
+  color: #0c0b0b;
+  opacity: 0.2;
+  padding-right: 10px;
+}
+
+.midle__bottom .link {
+  font-size: 15px;
+  line-height: 18px;
+  color: #030202;
+  opacity: 1;
+}
+
+.midle__bottom__carusel {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #f5f5f7;
+  border-radius: 14px;
+  padding: 8px 8px;
+  margin-top: 10px;
+}
+
+.midle__bottom__carusel .carusel__img {
+  width: 60px;
+  height: 60px;
+}
+
+.midle__bottom__carusel .carusel__content h4 {
+  font-size: 15px;
+  line-height: 26px;
+}
+
+.midle__bottom__carusel .carusel__content p {
+  font-size: 13px;
+  line-height: 24px;
+}
+
+.midle__bottom__carusel .carusel__icon {
+  width: 52px;
+  height: 14px;
+  margin: 0px 17px;
+}
+
+.midle__bottom__carusel .carusel__btn {
+  background-color: transparent;
+  color: black;
+  padding: 12px 30px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.6s ease-in-out;
+}
+
+.midle__bottom__carusel .carusel__btn:hover {
+  background: #0c0b0b;
+  color: #fff;
+  border-radius: 8px;
+  padding: 12px 30px;
+}
+
+.right {
+  margin-top: 19px;
+}
+
+.right__top .top__seorch {
+  background-color: #f5f5f7;
+  border: 1px solid transparent;
+  padding: 5px 245px 5px 5px;
+  border-radius: 8px;
+}
+
+.right__top .top__nav {
+  padding-left: 20px;
+  width: 50px;
+  height: 38px;
+}
+
+.right__top .top__imgs {
+  padding-left: 20px;
+  width: 61px;
+  height: 32px;
+}
+
+.right__bottom {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+
+.right__bottom .content1 {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f7;
+  padding: 20px 30px 12px 30px;
+  border-radius: 8px;
+  margin-top: 8px;
+}
+
+.right__bottom .content1 img {
+  width: 30px;
+  height: 30px;
+}
+
+.right__bottom .content1 span {
+  padding-left: 10px;
+}
+
+.right__bottom .content2 {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f7;
+  padding: 20px 30px 12px 30px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.right__bottom .content2 img {
+  width: 30px;
+  height: 30px;
+}
+
+.right__bottom .content2 span {
+  padding-left: 10px;
+}
+
+.right__statik h3 {
+  font-size: 18px;
+  line-height: 38px;
+  color: #0c0b0b;
+  margin-top: 20px;
+}
+
+.right__statik .right__link {
+  font-size: 16px;
+  line-height: 26px;
+  color: #0c0b0b;
+  opacity: 0.2;
+  padding-right: 10px;
+}
+
+.right__statik .link {
+  font-size: 15px;
+  line-height: 18px;
+  color: #030202;
+  opacity: 1;
+}
+
+.right__statik .select {
+  margin-left: 120px;
+  background-color: #f5f5f7;
+  border-radius: 5px;
+  padding: 3px 5px;
+  border: 1px solid #f5f5f7;
+}
+
+.right__statik .right__img {
+  width: 435px;
+  height: 212px;
+}
+
+.right__more {
+  width: 87%;
+  display: flex;
+  gap: 40px;
+  background-color: #f5f5f7;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.right__more__content {
+  line-height: 30px;
+}
+
+.right__more__content p {
+  width: 190px;
+  padding-bottom: 15px;
+}
+/*# sourceMappingURL=jon.css.map */
